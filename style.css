@@ -70,6 +70,10 @@ section > * { max-width: 1200px; }
 .btn-outline:hover { background: var(--blue); color: var(--white); }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 
+/* ---- aviso de demonstração (remover junto com o noindex no site real) ---- */
+.demo-bar { padding: 8px var(--pad-x); background: var(--ink); color: #FFD25A; font-size: .8125rem; line-height: 1.4; }
+.demo-bar strong { color: var(--white); }
+
 /* ---- topo ---- */
 .top {
   position: sticky; top: 0; z-index: 30;
